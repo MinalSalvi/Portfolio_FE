@@ -3,7 +3,7 @@
 }
 
 .lineUp {
-    animation: 4s anim-lineUp ease-out infinite;
+    animation: 4s anim-lineUp ease-out;
   }
   @keyframes anim-lineUp {
     0% {

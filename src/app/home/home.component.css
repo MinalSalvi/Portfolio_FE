@@ -14,7 +14,7 @@
     padding-left: 2ch;
     position: absolute;
     bottom: 0px;
-
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -47,7 +47,7 @@
 }
 .right button:hover{
 color: black;
-
+font-size: larger;
  border-bottom: 1px solid black;
 
 }
@@ -90,11 +90,11 @@ p {
   height: 100vh;
   display: flex;
   align-items: flex-start;
-  justify-content:flex-start;
+  justify-content:flex-start; padding: 2ch;
 }
 
 .animation {
-  height:50px;
+  height:70px;
   overflow:hidden;
   margin-left: 1rem;
 }
@@ -107,7 +107,7 @@ p {
 }
 
 .animation div:first-child {
-  animation: text-animation 8s infinite;
+  animation: text-animation 12s infinite;
 }
 
 .first div {

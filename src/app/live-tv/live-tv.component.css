@@ -1,6 +1,7 @@
 .live-tv-cont{
     padding: 2ch;
     animation: 4s anim-lineUp ease-out ;
+    
 }
 @keyframes anim-lineUp {
   0% {
