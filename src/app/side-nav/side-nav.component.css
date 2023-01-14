@@ -13,6 +13,10 @@
     margin: 0;
     padding: 0;
 }
+.Profile img{
+    height: 80px;
+    border-radius: 90px;
+}
 
 
 .nav-middel-top ul li a{
@@ -87,4 +91,24 @@ color: black;
 
 
 
+}
+
+.nav-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Profile img{
+    margin: 20px;
+    margin-left:60px;
+}
+
+.nav-footer p{
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
 }

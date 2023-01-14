@@ -1,5 +1,5 @@
 .h2,p{
-    padding: 2ch;
+    padding: 4ch;
 }
 
 .lineUp {
@@ -23,3 +23,8 @@
     }
   }
   
+
+
+  .lineUp{
+    padding: 2ch;
+  }
