@@ -22,6 +22,18 @@
     text-decoration: none;
     color: black;
 font-family: 'Signika', sans-serif;
+
+}
+
+/* .nav-middel-top ul li a{
+    border: 1px solid red;
+} */
+
+.nav-middel-top ul li a:hover{
+border: 1px solid blue;
+color:white;
+border-radius: 45px;
+background-color: blue;
 }
 
 .nav-middel-top ul li{

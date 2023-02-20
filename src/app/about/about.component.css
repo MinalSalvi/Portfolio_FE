@@ -1,15 +1,15 @@
-.about-cont {
-/* color: red; */
+/* .about-cont {
+
 padding-left: 2ch;
 
 font-family: 'Oswald', sans-serif;
-}
+} */
 
 .about-cont p,h2 {
 
     animation: 4s anim-lineUp ease-out ;
 }
-@keyframes anim-lineUp {
+/* @keyframes anim-lineUp {
   0% {
     opacity: 0;
     transform: translateY(80%);
@@ -31,4 +31,4 @@ font-family: 'Oswald', sans-serif;
 
 .about-cont{
   padding: 4ch;
-}
+} */

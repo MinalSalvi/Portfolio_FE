@@ -1,5 +1,5 @@
 .home-container{
-    background-image: url("https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-image:url("https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ;
     background-size: 80%;
     background-repeat: no-repeat;
 
@@ -33,7 +33,7 @@
     align-items: flex-end;
     padding-bottom: 2%
 }
-.right button{
+ .right button{
 
 
    border: transparent;
@@ -44,13 +44,21 @@
     color: whitesmoke;
     padding: 2ch;
 
-}
+} 
 .right button:hover{
 color: black;
 font-size: larger;
  border-bottom: 1px solid black;
 
 }
+.right button,span{
+  font-size: small;
+  }
+  
+  .right span{
+      font-size: 2ch;
+  }
+  
 
 
 
@@ -64,15 +72,6 @@ font-size: larger;
 .material-symbols-outlined{
     font-size: 10vh;
 }
-
-.right button,span{
-font-size: small;
-}
-
-.right span{
-    font-size: 2ch;
-}
-
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
@@ -133,3 +132,30 @@ p {
   100% {margin-top: 0;}
 }
 
+.right button{
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.right button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.right button:active {
+  transform: scale(0.9);
+  
+}
