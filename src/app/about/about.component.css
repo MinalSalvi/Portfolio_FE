@@ -32,3 +32,22 @@ font-family: 'Oswald', sans-serif;
 .about-cont{
   padding: 4ch;
 } */
+
+
+.LS-down{
+  display: flex;
+}
+
+.wrapper{
+  border: 1px solid red;
+  /* height: 30px; */
+  height:auto;
+}
+.fill{
+  height: 20px;
+  border: 1px solid blue;
+  margin: 25px 50px;
+background-color: yellow;
+  border-radius: 50px;
+}
+
