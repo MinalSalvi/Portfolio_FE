@@ -4,11 +4,11 @@ padding-left: 2ch;
 
 font-family: 'Oswald', sans-serif;
 } */
-
+/* 
 .about-cont p,h2 {
 
     animation: 4s anim-lineUp ease-out ;
-}
+} */
 /* @keyframes anim-lineUp {
   0% {
     opacity: 0;
@@ -50,4 +50,214 @@ font-family: 'Oswald', sans-serif;
 background-color: yellow;
   border-radius: 50px;
 }
+body {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.container-skills {
+	margin: 20px auto 0 auto;
+  max-width: 400px;
+}
 
+.bar {
+  position: relative;
+	background-color: #d8d8d8;
+	height: 10px;
+	margin: 0 0 20px 0;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+}
+.bar-title {
+  position: relative;
+	font-size: 1em;
+	text-align: left;
+	margin: 0 0 5px 0;
+}
+.percent {
+  position: absolute;
+	right: 0;
+}
+
+/* Animations Below - Replace ease-out with infinite for infinite loop*/
+/*Edit here for html*/  
+.bar-fill-html {
+	width: 50%;
+  background-color: #e44d26;
+	animation: bar-fill-html 7s ease-out;
+	-moz-animation: bar-fill-html 2s ease-out;
+  -webkit-animation: bar-fill-html 2s ease-out;
+}
+@keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-moz-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-webkit-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+/*Edit here for Javascript*/
+.bar-fill-javascript {
+	width: 60%;
+  background-color: #f8dc3d;
+  animation: bar-fill-javascript 2s ease-out;
+	-moz-animation: bar-fill-javascript 2s ease-out;
+  -webkit-animation: bar-fill-javascript 2s ease-out;
+}
+@keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+/*Edit here for Jquery*/
+.bar-fill-jquery{
+	width: 90%;
+  background-color: #131b28;
+  animation: bar-fill-jquery 2s ease-out;
+	-moz-animation: bar-fill-jquery 2s ease-out;
+  -webkit-animation: bar-fill-jquery 2s ease-out;
+}
+@keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-moz-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-webkit-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+/*Edit here for Responsive*/
+.bar-fill-responsive{
+	width: 30%;
+  background-color: #429f46;
+  animation: bar-fill-responsive 2s ease-out;
+	-moz-animation: bar-fill-responsive 2s ease-out;
+  -webkit-animation: bar-fill-responsive 2s ease-out;
+}
+@keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+@-moz-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+@-webkit-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+/*Edit here for Photoshop*/
+.bar-fill-photoshop{
+	width: 50%;
+  background-color: #0a73dc;
+  animation: bar-fill-photoshop 2s ease-out;
+	-moz-animation: bar-fill-photoshop 2s ease-out;
+  -webkit-animation: bar-fill-photoshop 2s ease-out;
+}
+@keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-moz-keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-webkit-keyframes bar-fill-photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+.container h1,h2,p{
+  animation: 4s anim-lineUp ease-out ;
+}
