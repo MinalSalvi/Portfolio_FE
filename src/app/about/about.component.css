@@ -33,32 +33,65 @@ font-family: 'Oswald', sans-serif;
   padding: 4ch;
 } */
 
+.container{
+  /* border: 1px solid red; */
+  display: flex;
+
+}
+
+.LS{
+/* border: 1px solid blue; */
+display: flex;
+flex-direction: column;
+
+}
+
+.container-skills{
+  /* border: 1px solid black; */
+  width:45vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.LS{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  padding: 20px;
+}
 
 .LS-down{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+.RS{
+  margin: 0;
+  /* border: 1px solid red; */
+  padding: 10px;
+
+
+
+}
 .wrapper{
-  border: 1px solid red;
-  /* height: 30px; */
+
   height:auto;
 }
-.fill{
-  height: 20px;
-  border: 1px solid blue;
-  margin: 25px 50px;
-background-color: yellow;
-  border-radius: 50px;
+
+.container-skills{
+  /* border: 1px solid blue; */
 }
+
 body {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
  
 }
-.container-skills {
-	margin: 20px auto 0 auto;
-  max-width: 400px;
-}
+
 
 .bar {
   position: relative;
@@ -81,8 +114,7 @@ body {
 	right: 0;
 }
 
-/* Animations Below - Replace ease-out with infinite for infinite loop*/
-/*Edit here for html*/  
+
 .bar-fill-html {
 	width: 50%;
   background-color: #e44d26;
@@ -258,3 +290,8 @@ body {
     }
 }
 
+.bar-title{
+ 
+ display: flex;
+ justify-content: center;
+}
