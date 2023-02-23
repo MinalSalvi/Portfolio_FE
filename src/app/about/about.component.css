@@ -296,6 +296,11 @@ body {
  justify-content: center;
 }
 
+.bar-title p{
+  text-shadow: 2px 2px #ff0000;
+
+}
+
 .container p,h2,h1{
   animation: 5s anim-lineUp ease-out ;
 }
