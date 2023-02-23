@@ -119,8 +119,8 @@ body {
 	width: 50%;
   background-color: #e44d26;
 	animation: bar-fill-html 7s ease-out;
-	-moz-animation: bar-fill-html 2s ease-out;
-  -webkit-animation: bar-fill-html 2s ease-out;
+	-moz-animation: bar-fill-html 5s ease-out;
+  -webkit-animation: bar-fill-html 5s ease-out;
 }
 @keyframes bar-fill-html {
     0% {
@@ -153,9 +153,9 @@ body {
 .bar-fill-javascript {
 	width: 60%;
   background-color: #f8dc3d;
-  animation: bar-fill-javascript 2s ease-out;
-	-moz-animation: bar-fill-javascript 2s ease-out;
-  -webkit-animation: bar-fill-javascript 2s ease-out;
+  animation: bar-fill-javascript 5s ease-out;
+	-moz-animation: bar-fill-javascript 5s ease-out;
+  -webkit-animation: bar-fill-javascript 5s ease-out;
 }
 @keyframes bar-fill-javascript {
     0% {
@@ -188,9 +188,9 @@ body {
 .bar-fill-jquery{
 	width: 90%;
   background-color: #131b28;
-  animation: bar-fill-jquery 2s ease-out;
-	-moz-animation: bar-fill-jquery 2s ease-out;
-  -webkit-animation: bar-fill-jquery 2s ease-out;
+  animation: bar-fill-jquery 5s ease-out;
+	-moz-animation: bar-fill-jquery 5s ease-out;
+  -webkit-animation: bar-fill-jquery 5s ease-out;
 }
 @keyframes bar-fill-jquery {
     0% {
@@ -223,9 +223,9 @@ body {
 .bar-fill-responsive{
 	width: 30%;
   background-color: #429f46;
-  animation: bar-fill-responsive 2s ease-out;
-	-moz-animation: bar-fill-responsive 2s ease-out;
-  -webkit-animation: bar-fill-responsive 2s ease-out;
+  animation: bar-fill-responsive 5s ease-out;
+	-moz-animation: bar-fill-responsive 5s ease-out;
+  -webkit-animation: bar-fill-responsive 5s ease-out;
 }
 @keyframes bar-fill-responsive {
     0% {
@@ -258,9 +258,9 @@ body {
 .bar-fill-photoshop{
 	width: 50%;
   background-color: #0a73dc;
-  animation: bar-fill-photoshop 2s ease-out;
-	-moz-animation: bar-fill-photoshop 2s ease-out;
-  -webkit-animation: bar-fill-photoshop 2s ease-out;
+  animation: bar-fill-photoshop 5s ease-out;
+	-moz-animation: bar-fill-photoshop 5s ease-out;
+  -webkit-animation: bar-fill-photoshop 5s ease-out;
 }
 @keyframes bar-fill-photoshop {
     0% {
@@ -294,4 +294,25 @@ body {
  
  display: flex;
  justify-content: center;
+}
+
+.container p,h2,h1{
+  animation: 5s anim-lineUp ease-out ;
+}
+@keyframes anim-lineUp {
+0% {
+  opacity: 0;
+  transform: translateY(80%);
+}
+20% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+  transform: translateY(0%);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0%);
+}
 }
