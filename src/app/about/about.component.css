@@ -258,6 +258,3 @@ body {
     }
 }
 
-.container h1,h2,p{
-  animation: 4s anim-lineUp ease-out ;
-}
