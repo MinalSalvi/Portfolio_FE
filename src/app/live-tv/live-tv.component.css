@@ -1,6 +1,7 @@
 .live-tv-cont{
     padding: 2ch;
     animation: 4s anim-lineUp ease-out ;
+  
     
 }
 @keyframes anim-lineUp {
@@ -21,3 +22,45 @@
   }
 }
 
+.card {
+  display: flex;
+  width: 300px;
+  height: 254px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 26px;
+  box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.2), inset -8px -8px 16px 0px rgba(157, 177, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+  transition: all 0.3s;
+  cursor: pointer;
+  background-image: url("https://media3.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif?cid=ecf05e478nzs7u93g0e5w0ubcbvnkui8nv392m8x7e5xabbw&rid=giphy.gif&ct=g");
+  background-position: center;
+  background-blend-mode: color;
+  align-items: center;
+
+}
+
+.card:hover {
+  box-shadow: 35px 35px 68px 0px rgba(157, 177, 255, 0.5);
+}
+
+.card:active {
+  transform: scale(0.95);
+  /* border: 1px solid blue; */
+  /*animation: 0.3s click cubic-bezier(.42,0,.58,1);*/
+}
+
+.card h2{
+  /* border: 1px solid red; */
+  /* display: flex; */
+  justify-items: center;
+}
+
+.card-wrapper{
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-wrapper a{
+  text-decoration: none;
+}
