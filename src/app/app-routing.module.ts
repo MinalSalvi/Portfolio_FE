@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { APITestComponent } from './api-test/api-test.component';
 import { HomeComponent } from './home/home.component';
 import { LiveTVComponent } from './live-tv/live-tv.component';
 import { LoginPageComponent } from './login-page/login-page.component';
@@ -24,7 +25,8 @@ const approutes: Routes = [
   {path:'Published', component:PublishedComponent},
   {path:'Live_TV', component:LiveTVComponent},
   {path:'NewsPaper', component:NewsPaperComponent},
-  {path:'login-page', component:LoginPageComponent}
+  // {path:'login-page', component:LoginPageComponent},
+  {path:'login-page', component:APITestComponent}
 
 
 ];

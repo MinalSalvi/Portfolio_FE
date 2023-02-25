@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import{PortfolioDataService} from './services/portfolio-data.service'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portfolio';
+  // port:any;
+ 
+  // constructor(private Info:PortfolioDataService)
+  // {
+  //   console.warn("Info",Info.port())
+  //   this.port=Info.port();
+  // }
 }

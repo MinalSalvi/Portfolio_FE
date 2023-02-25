@@ -16,6 +16,7 @@ import { LiveTVComponent } from './live-tv/live-tv.component';
 import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { APITestComponent } from './api-test/api-test.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { LoginPageComponent } from './login-page/login-page.component';
     LiveTVComponent,
     NewsPaperComponent,
     FooterComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    APITestComponent
   ],
   imports: [
     BrowserModule,
