@@ -1,12 +1,30 @@
-<p>api-test works!</p>
-<ul>
+<div class="display">
+
+
+  <p>api-test works!</p>
+  <ul>
     <li *ngFor="let a of port">
-      {{a.Nav}}
-    
-  
-
+      {{a.text}} 
     </li>
-    
+  </ul>
 
-   
-</ul>
+  <div class="under">
+    <form>
+      <h2>
+        Edit form details
+      </h2>
+      <div class="form">
+
+      
+      <input type="text" aria-label="Nav" placeholder="Enter the nav ">
+      <br> 
+      <input type="text" aria-label="Text" placeholder="Enter the Text ">
+      <br> 
+      <input type="text" aria-label="Heading" placeholder="Enter the Heading ">
+      <br>
+      <button type="submit"> confirm</button>
+
+    </div>
+    </form>
+  </div>
+</div>

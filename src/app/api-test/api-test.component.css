@@ -1,0 +1,13 @@
+.form{
+  display: flex;
+  width: fill;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.under{
+  border: 1px solid blue;
+  width: 95vh;
+}
