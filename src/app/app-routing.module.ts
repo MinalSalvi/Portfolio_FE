@@ -25,8 +25,8 @@ const approutes: Routes = [
   {path:'Published', component:PublishedComponent},
   {path:'Live_TV', component:LiveTVComponent},
   {path:'NewsPaper', component:NewsPaperComponent},
-  // {path:'login-page', component:LoginPageComponent},
-  {path:'login-page', component:APITestComponent}
+  {path:'login-page', component:LoginPageComponent},
+  // {path:'login-page', component:APITestComponent}
 
 
 ];

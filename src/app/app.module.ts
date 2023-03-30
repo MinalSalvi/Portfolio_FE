@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{ RouterModule, Routes } from '@angular/router';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { APITestComponent } from './api-test/api-test.component';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { APITestComponent } from './api-test/api-test.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
 
     
   ],

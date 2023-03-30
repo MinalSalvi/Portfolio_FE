@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { PortfolioDataService } from '../services/portfolio-data.service';
 
+
+
 @Component({
   selector: 'app-api-test',
   templateUrl: './api-test.component.html',
@@ -16,3 +18,4 @@ export class APITestComponent {
     this.port=Info.port();
   }
 }
+
