@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
 
 import { APITestComponent } from './api-test.component';
 
@@ -21,3 +22,5 @@ describe('APITestComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
