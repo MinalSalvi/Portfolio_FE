@@ -18,6 +18,8 @@ import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { APITestComponent } from './api-test/api-test.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { EducationComponent } from './education/education.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { APITestComponent } from './api-test/api-test.component';
     NewsPaperComponent,
     FooterComponent,
     LoginPageComponent,
-    APITestComponent
+    APITestComponent,
+    DashboardComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
