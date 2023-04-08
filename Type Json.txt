@@ -1,0 +1,34 @@
+{
+  "ResearchProjects": [
+    {
+      "Title": "Financial Literacy and its Impact on Women Vegetable Vendors in Navi - Mumbai",
+      "Organization": "Board of College & University Development (BCUD), University of Mumbai",
+      "Year": "2019-20",
+      "Status": "Currently working on this project"
+    },
+    {
+      "Title": "Gender Budget Analysis of Budget of Municipal Corporation of Greater Mumbai: 1992-93 to 2014-15",
+      "Organization": "Board of College & University Development (BCUD), University of Mumbai",
+      "Year": "2015-16",
+      "Status": ""
+    },
+    {
+      "Title": "Gender Audit of Union Budget of India during the Post-Reform Decade (1992-2002)",
+      "Organization": "Board of College & University Development (BCUD), University of Mumbai",
+      "Year": "2005",
+      "Status": "Successfully completed & submitted to the university in year 2006"
+    },
+    {
+      "Title": "Women in Chinese and Indian Export Processing Zone: A Case Study of Electronic Industry",
+      "Organization": "Sponsored by Indian Council of Social Science Research (ICSSR-New Delhi) and Chinese Academy of Social Science (CASS-Beijing, China)",
+      "Year": "2006",
+      "Status": "Major Research project completed for the academic year 2006"
+    },
+    {
+      "Title": "Globalization and Cultural Transformation of Dharavi Slum in Mumbai",
+      "Organization": "Conducted by PUKAR (Partners for Urban Knowledge, Action and Research), financially supported by Ford Foundation, USA",
+      "Year": "2007-08",
+      "Status": "Worked on the research project in year 2007-08"
+    }
+  ]
+}

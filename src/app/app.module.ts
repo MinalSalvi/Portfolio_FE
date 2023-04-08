@@ -5,10 +5,10 @@ import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { AboutComponent } from './about/about.component';
-import { SRBannerComponent } from './sr-banner/sr-banner.component';
+
 import { ResearchComponent } from './research/research.component';
 import { ScholarshipsComponent } from './scholarships/scholarships.component';
 import { PublicationComponent } from './publication/publication.component';
@@ -20,15 +20,18 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { APITestComponent } from './api-test/api-test.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NewReserachComponent } from './NEW/new-reserach/new-reserach.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+   
     SideNavComponent,
     AboutComponent,
-    SRBannerComponent,
+    
     ResearchComponent,
     ScholarshipsComponent,
     PublicationComponent,
@@ -39,12 +42,15 @@ import { EducationComponent } from './education/education.component';
     LoginPageComponent,
     APITestComponent,
     DashboardComponent,
-    EducationComponent
+    EducationComponent,
+    NewReserachComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
 
     
   ],

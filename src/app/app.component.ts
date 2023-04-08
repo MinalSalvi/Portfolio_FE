@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import{PortfolioDataService} from './services/portfolio-data.service'
+import { PortfolioDataService } from './services/portfolio-data.service'
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,17 @@ import{PortfolioDataService} from './services/portfolio-data.service'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'Portfolio';
-  // port:any;
- 
-  // constructor(private Info:PortfolioDataService)
-  // {
-  //   console.warn("Info",Info.port())
-  //   this.port=Info.port();
-  // }
+  constructor(private router: Router,private route: ActivatedRoute) { }
+  ngOnInit() {
+
+    console.log(this.router.url , "check the url");
+    console.log(this.route.snapshot.routeConfig?.path, "checked urs2");
+
+  }
 }
+
+
+
+
