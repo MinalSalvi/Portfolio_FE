@@ -1,0 +1,52 @@
+<div class="containr">
+    <legend>
+        create
+    </legend>
+    <form>
+        <div class="mb-3">
+            <label for="txtTitle" class="form-label">Add Title</label>
+            <input 
+            type="text" 
+            class="form-control"
+             id="txtTitle" aria-describedby="emailHelp"    name="Title"
+             [(ngModel)]="newcreateorupdate.Title" />
+         
+
+        </div>
+        <div class="mb-3">
+            <label for="txtOrganisation" class="form-label">Add Organisation</label>
+            <input type="text" class="form-control" id="txtOrganisation" aria-describedby="emailHelp"
+            name="Organisation"
+            [(ngModel)]="newcreateorupdate.Organisation"/>
+
+        </div>
+        <div class="mb-3">
+            <label for="txtStatus" class="form-label">Add Status</label>
+            <input type="text" class="form-control" id="txtStatus" aria-describedby="emailHelp"
+            name="Status"
+            [(ngModel)]="newcreateorupdate.Status"/>
+
+        </div> 
+        <div class="mb-3">
+            <label for="txtYear" class="form-label">Add Year</label>
+            <input type="text" class="form-control" id="txtYear" aria-describedby="emailHelp"
+            name="Year"
+            [(ngModel)]="newcreateorupdate.Year"/>
+
+        </div> 
+
+        <button type="button" class="btn bth-primary" (click)="create()">
+            Click to create
+        </button>
+
+     
+
+
+
+    </form>
+        <a href="Dashboard">
+            <button>
+                go to Dashboard
+            </button>
+        </a>
+</div>
