@@ -21,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NewReserachComponent } from './NEW/new-reserach/new-reserach.component';
 import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
 import { DashBoards } from './NEW/dash-boards';
+import { EditRComponent } from './NEW/edit-r/edit-r.component';
 
 
 
@@ -42,6 +43,7 @@ import { DashBoards } from './NEW/dash-boards';
     EducationComponent,
     NewReserachComponent,
     AddChnagesComponent,
+    EditRComponent,
    
   ],
   imports: [

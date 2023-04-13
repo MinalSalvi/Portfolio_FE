@@ -16,7 +16,18 @@ export class DashBoardsService {
   }
 
   create(DashBoards:CreateOrUpdate){
-    return this.http.post("http://localhost:3000/dashboard",DashBoards);
+    return this.http.post("http://localhost:3000/dashboard", DashBoards);
 
   }
+
+  getById(id: string) {
+    return this.http.get<DashBoards>(`http://localhost:3000/dashboard/${id}`);
+  }   
+
+  update(id: string , dashboard: CreateOrUpdate){
+    return this.http.put(`http://localhost:3000/dashboard/${id}` , dashboard);
+  }
+
+  
 }
+ 
