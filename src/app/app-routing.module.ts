@@ -12,7 +12,7 @@ import { ScholarshipsComponent } from './scholarships/scholarships.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
 import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
-import { EditRComponent } from './NEW/edit-r/edit-r.component'; 
+
 
 const approutes: Routes = [
   { path: 'Education', component: EducationComponent },
@@ -27,7 +27,7 @@ const approutes: Routes = [
   { path: 'Dashboard', component: DashboardComponent },
   { path: 'addChanges', component: AddChnagesComponent },
   { path: 'Hello', component: NewReserachComponent },
-  { path: 'EditR/:id', component: EditRComponent}
+
 
 ];
 

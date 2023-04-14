@@ -20,13 +20,6 @@ export class DashBoardsService {
 
   }
 
-  getById(id: string) {
-    return this.http.get<DashBoards>(`http://localhost:3000/dashboard/${id}`);
-  }   
-
-  update(id: string , dashboard: CreateOrUpdate){
-    return this.http.put(`http://localhost:3000/dashboard/${id}` , dashboard);
-  }
 
   
 }
