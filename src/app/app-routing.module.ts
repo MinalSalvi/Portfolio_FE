@@ -27,6 +27,7 @@ const approutes: Routes = [
   { path: 'Dashboard', component: DashboardComponent },
   { path: 'addChanges', component: AddChnagesComponent },
   { path: 'Hello', component: NewReserachComponent },
+  // { path: 'NewResearch' , component:NewReserachComponent}
 
 
 ];

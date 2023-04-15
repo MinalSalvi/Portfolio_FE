@@ -4,5 +4,6 @@ export interface DashBoards {
     Organisation:string;
     Year:number;
     Status:string;
+    URL:string
 
 }
