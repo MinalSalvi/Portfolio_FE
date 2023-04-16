@@ -3,6 +3,9 @@ import { DashBoardsService } from './../dash-boards.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+
+declare var window:any;
+
 @Component({
   selector: 'app-new-reserach',
   templateUrl: './new-reserach.component.html',
@@ -16,9 +19,13 @@ export class NewReserachComponent implements OnInit {
     private router:Router) { }
 testdashboard:DashBoards []=[];
 
+iteamToDelet:string = '';
+deleteModal:any;
 
 ngOnInit(): void {
-  this.itemId= this.router.url.split('/').pop();
+this.deleteModal = new window.bootstrap.Modal(
+  document.getElementById("deleteModal")
+);
   this.getAll();
 }
 
@@ -29,16 +36,12 @@ getAll(){
   })
 }
 
-deleteItem(id:string):void{
-  this.DashBoardsService.deletExample(id).subscribe(()=>{
-    window.alert('sudcess!');
-  },
-  (error)=>{
-    window.alert('not sucess')
-  }
-  );
-}
 
+
+openDeletePopup(id:string){
+this.iteamToDelet=id;
+this.deleteModal.show();
+}
 
 
 }
