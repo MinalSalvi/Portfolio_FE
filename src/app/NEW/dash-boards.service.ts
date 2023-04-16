@@ -21,9 +21,11 @@ export class DashBoardsService {
 
   }
 
-  deletExample(id:string): Observable<void>{
-    return this.http.delete<void>(`/http://localhost:3000/dashboard/${id}`);
+
+  delete(id:string){
+    return this.http.delete(`http://localhost:3000/dashboard/${id}`)
   }
+  
 
 
   

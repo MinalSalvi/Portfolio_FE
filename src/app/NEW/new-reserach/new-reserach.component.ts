@@ -1,3 +1,5 @@
+import { dashboards } from './../../../../../Portfolio_BE/src/dashboard/schema/dashboard.schema';
+import { Delete } from '@nestjs/common';
 import { DashBoards } from '../dash-boards';
 import { DashBoardsService } from './../dash-boards.service';
 import { Component, OnInit } from '@angular/core';
@@ -13,6 +15,7 @@ declare var window:any;
 })
 export class NewReserachComponent implements OnInit {
   itemId: string | undefined;
+  DashBoards: any;
 
   constructor (
     private DashBoardsService:DashBoardsService,
@@ -44,5 +47,14 @@ this.deleteModal.show();
 }
 
 
+delet(){
+  this.DashBoardsService.delete(this.iteamToDelet).subscribe(()=>{
+    this.DashBoards = this.testdashboard.filter(_ => _._id !== this.iteamToDelet);
+    this.deleteModal.hide();
+  })
 }
 
+
+}
+
+ 
