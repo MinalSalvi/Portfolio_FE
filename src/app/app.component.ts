@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PortfolioDataService } from './services/portfolio-data.service'
+
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({

@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { FormsModule } from '@angular/forms';
 
-import { APITestComponent } from './api-test.component';
+import { AuthDisplayComponent } from './auth-display.component';
 
-describe('APITestComponent', () => {
-  let component: APITestComponent;
-  let fixture: ComponentFixture<APITestComponent>;
+describe('AuthDisplayComponent', () => {
+  let component: AuthDisplayComponent;
+  let fixture: ComponentFixture<AuthDisplayComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ APITestComponent ]
+      declarations: [ AuthDisplayComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(APITestComponent);
+    fixture = TestBed.createComponent(AuthDisplayComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -22,5 +21,3 @@ describe('APITestComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-

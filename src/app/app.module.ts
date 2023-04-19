@@ -13,14 +13,16 @@ import { PublishedComponent } from './published/published.component';
 import { LiveTVComponent } from './live-tv/live-tv.component';
 import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { FooterComponent } from './footer/footer.component';
-import { LoginPageComponent } from './login-page/login-page.component';
-import { APITestComponent } from './api-test/api-test.component';
+import { LoginPageComponent } from './auth/login-page/login-page.component';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NewReserachComponent } from './NEW/new-reserach/new-reserach.component';
 import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
 import { DashBoards } from './NEW/dash-boards';
+import { AuthDisplayComponent } from './auth-display/auth-display.component';
+import { AuthHomeComponent } from './auth-home/auth-home.component';
 
 
 
@@ -38,11 +40,13 @@ import { DashBoards } from './NEW/dash-boards';
     NewsPaperComponent,
     FooterComponent,
     LoginPageComponent,
-    APITestComponent,
+   
     DashboardComponent,
     EducationComponent,
     NewReserachComponent,
     AddChnagesComponent,
+    AuthDisplayComponent,
+    AuthHomeComponent,
 
    
   ],

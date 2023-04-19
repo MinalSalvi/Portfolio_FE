@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { NewReserachComponent } from './NEW/new-reserach/new-reserach.component';
 import { LiveTVComponent } from './live-tv/live-tv.component';
-import { LoginPageComponent } from './login-page/login-page.component';
+import { LoginPageComponent } from './auth/login-page/login-page.component';
 import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { PublicationComponent } from './publication/publication.component';
 import { PublishedComponent } from './published/published.component';
@@ -12,6 +12,7 @@ import { ScholarshipsComponent } from './scholarships/scholarships.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
 import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
+import { AuthDisplayComponent } from './auth-display/auth-display.component';
 
 
 const approutes: Routes = [
@@ -28,6 +29,15 @@ const approutes: Routes = [
   { path: 'addChanges', component: AddChnagesComponent },
   { path: 'Hello', component: NewReserachComponent },
   // { path: 'NewResearch' , component:NewReserachComponent}
+  {
+    path:'AuthDisplay', component:AuthDisplayComponent
+  },
+  {
+    path:'auth', loadChildren:() => import('./auth/auth.module'). then (_ => _.AuthModule)
+  },
+  {
+    path:'login', component: LoginPageComponent
+  }
 
 
 ];
