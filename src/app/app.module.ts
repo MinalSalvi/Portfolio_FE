@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{ RouterModule, Routes } from '@angular/router';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
@@ -13,16 +13,22 @@ import { PublishedComponent } from './published/published.component';
 import { LiveTVComponent } from './live-tv/live-tv.component';
 import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { FooterComponent } from './footer/footer.component';
-import { LoginPageComponent } from './auth/login-page/login-page.component';
+
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NewReserachComponent } from './NEW/new-reserach/new-reserach.component';
 import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
-import { DashBoards } from './NEW/dash-boards';
-import { AuthDisplayComponent } from './auth-display/auth-display.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from 'src/material.module';
+import {ToastrModule} from 'ngx-toastr';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 import { AuthHomeComponent } from './auth-home/auth-home.component';
+import { UserlistingComponent } from './userlisting/userlisting.component';
+import { UpdatePopupComponent } from './update-popup/update-popup.component'
+
 
 
 
@@ -39,14 +45,17 @@ import { AuthHomeComponent } from './auth-home/auth-home.component';
     LiveTVComponent,
     NewsPaperComponent,
     FooterComponent,
-    LoginPageComponent,
-   
     DashboardComponent,
     EducationComponent,
     NewReserachComponent,
     AddChnagesComponent,
-    AuthDisplayComponent,
+    RegisterComponent,
+    LoginComponent,
     AuthHomeComponent,
+    UserlistingComponent,
+    UpdatePopupComponent,
+   
+   
 
    
   ],
@@ -54,7 +63,11 @@ import { AuthHomeComponent } from './auth-home/auth-home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    ReactiveFormsModule,
+    ToastrModule.forRoot()
 
     
   ],
