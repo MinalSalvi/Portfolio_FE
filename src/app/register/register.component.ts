@@ -17,21 +17,18 @@ constructor(private builder:FormBuilder, private toastr:ToastrService,
 }
 
 registerform=this.builder.group({
-
-
   id:this.builder.control('', Validators.compose([Validators.required,Validators.minLength(3)]),
   ),
-  name:this.builder.control('',Validators.required),
-  password:this.builder.control('', Validators.compose([Validators.required,Validators.pattern('')])),
-  email:this.builder.control('', Validators.compose([Validators.required,Validators.email])),
-  gender:this.builder.control('male'),
+  Name:this.builder.control('',Validators.required),
+  Password:this.builder.control('', Validators.compose([Validators.required,Validators.pattern('')])),
+  Email:this.builder.control('', Validators.compose([Validators.required,Validators.email])),
+  gender:this.builder.control('Male'),
   role:this.builder.control(''),
   isactive:this.builder.control(false),
 });
 
 proceedRegsitration(){
   if(this.registerform.valid){
-
     this.service.Proceedregister(this.registerform.value).subscribe(res=> {
       this.toastr.success('Registration is sucessfull', 'contact admin for the allowance of acess');
       this.router.navigate(['login']);
