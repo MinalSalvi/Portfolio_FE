@@ -17,8 +17,10 @@ constructor(private builder:FormBuilder, private toastr:ToastrService,
 }
 
 registerform=this.builder.group({
-  id:this.builder.control('', Validators.compose([Validators.required,Validators.minLength(3)]),
+  username:this.builder.control('', Validators.compose([Validators.required,Validators.minLength(3)]),
   ),
+  id:this.builder.control(''),
+
   Name:this.builder.control('',Validators.required),
   Password:this.builder.control('', Validators.compose([Validators.required,Validators.pattern('')])),
   Email:this.builder.control('', Validators.compose([Validators.required,Validators.email])),

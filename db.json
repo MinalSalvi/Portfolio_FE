@@ -1,37 +1,11 @@
 {
   "user": [
     {
-      "id": "admin",
-      "Name": "Admin",
-      "Password": "test",
-      "Email": "a@in.com",
-      "gender": "Male",
-      "role": "",
-      "isactive": "false"
-    },
-    {
-      "id": "dfjdhfjdfd",
-      "Name": "dddf",
-      "Password": "fdfdfdfdfdf",
-      "Email": "wdjwj@gmail.com",
-      "gender": "Female",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "ertyuijhgf",
-      "Name": "rtyuijgfd",
-      "Password": "ryuif",
-      "Email": "a@gmail.com",
-      "gender": "Male",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "adminiuyo",
-      "Name": "Admin333",
-      "Password": "test",
-      "Email": "a@in.com",
+      "username": "fghjk",
+      "id": 1,
+      "Name": "fghjk.",
+      "Password": "fghjkl;",
+      "Email": "vbnm@in.com",
       "gender": "Male",
       "role": "",
       "isactive": false
