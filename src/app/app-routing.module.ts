@@ -35,7 +35,7 @@ const approutes: Routes = [
   // { path: 'NewResearch' , component:NewReserachComponent}
   { path:'login', component:LoginComponent},
   { path:'register', component:RegisterComponent},
-  { path:'user', component:UserlistingComponent},
+  { path:'UserList', component:UserlistingComponent},
   { path:'home', component:AuthHomeComponent}
 
  
