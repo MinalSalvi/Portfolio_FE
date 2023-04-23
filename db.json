@@ -6,7 +6,8 @@
       "password": "test",
       "email": "minal@in.com",
       "gender": "female",
-      "role": "false"
+      "role": "true",
+      "isactive": true
     },
     {
       "id": "xcvbn",
@@ -16,6 +17,42 @@
       "gender": "male",
       "role": "",
       "isactive": false
+    },
+    {
+      "id": "vbnmbnm",
+      "name": "fghjk",
+      "password": "ghjk",
+      "email": "thjk@in.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "xcvbnm",
+      "name": "fghjk",
+      "password": "rtyuil",
+      "email": "rtyjkl@in.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "cvbnm",
+      "name": "fghjkl",
+      "password": "cvbnm,",
+      "email": "fghjk@in.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "lovepreet",
+      "name": "lappi",
+      "password": "lappi",
+      "email": "lappi@in.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
     }
   ]
 }
