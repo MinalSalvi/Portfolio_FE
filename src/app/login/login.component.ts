@@ -37,7 +37,7 @@ userdata:any;
                 if(this.userdata.isactive){
                   sessionStorage.setItem('username', this.userdata.id);
                   sessionStorage.setItem('password', this.userdata.role);
-                  this.router.navigate(['/home']);
+                  this.router.navigate(['/Dashboard']);
 
 
                 }else{
