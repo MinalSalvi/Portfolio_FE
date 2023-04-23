@@ -1,162 +1,84 @@
-.home-container{
-    background-image:url("https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ;
-    background-size: 80%;
-    background-repeat: no-repeat;
 
-    display: flex;
-    height: 100vh;
-    width: 80vw;
-    justify-content: space-between;
-border: 1px solid red;
-    background-size: cover;
- overflow-y: hidden;
-    margin: 0;
-
-    position: absolute;
-    bottom: 0px;
-    font-family: 'Oswald', sans-serif;
-}
-
-
-.left h2{
-
- position: absolute;
-    bottom: 0;
-    color: whitesmoke;
-    font-size: 10vh;
-    padding: 3%;
-    font-weight: 100;
-}
-
-.right{
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 2%
-}
- .right button{
-
-
-   border: transparent;
-    background-color: Transparent;
-    cursor:pointer;
-    overflow: hidden; 
-    font-size: 10vh;
-    color: whitesmoke;
-    padding: 2ch;
-
-} 
-.right button:hover{
-color: black;
-font-size: larger;
- border-bottom: 1px solid black;
-
-}
-.right button,span{
-  font-size: small;
-  }
-  
-  .right span{
-      font-size: 2ch;
-  }
-  
-
-
-
-
-
-
-.text-class{
-    display: flex;
-}
-
-.material-symbols-outlined{
-    font-size: 10vh;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body {
-  font-family:'Roboto';
-  background-color: #131417;  
-}
-p {
-  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
-}
-.container {
-  color: #e5e5e5;
-  font-size: 2.26rem;
-  text-transform: uppercase;
-  height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  justify-content:flex-start; padding: 2ch;
-}
-
-.animation {
-  height:70px;
-  overflow:hidden;
-  margin-left: 1rem;
-}
-
-.animation > div > div {
-  padding: 0.25rem 0.75rem;
-  height:2.81rem;
-  margin-bottom: 2.81rem;
-  display:inline-block;
-}
-
-.animation div:first-child {
-  animation: text-animation 12s infinite;
-}
-
-.first div {
-  background-color:transparent;
-}
-.second div {
-  background-color:transparent;
-}
-.third div {
-  background-color:transparent;
-}
-
-@keyframes text-animation {
-  0% {margin-top: 0;}
-  10% {margin-top: 0;}
-  20% {margin-top: -5.62rem;}
-  30% {margin-top: -5.62rem;}
-  40% {margin-top: -11.24rem;}
-  60% {margin-top: -11.24rem;}
-  70% {margin-top: -5.62rem;}
-  80% {margin-top: -5.62rem;}
-  90% {margin-top: 0;}
-  100% {margin-top: 0;}
-}
-
-.right button{
-  position: relative;
-  display: inline-block;
-  margin: 15px;
-  padding: 15px 30px;
-  text-align: center;
+  background-color: #FEDF9E;
+  color: #000000;
+  font-family: 'Avenir Next', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
-  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.button {
+  background-color: #000000;
+  border: 2px solid #000000;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 12px 32px 14px 32px;
   text-decoration: none;
-  color: #725AC1;
-  background: transparent;
-  cursor: pointer;
-  transition: ease-out 0.5s;
-  border: 2px solid #725AC1;
-  border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #725AC1;
+  text-transform: uppercase;
 }
 
-.right button:hover {
-  color: white;
-  box-shadow: inset 0 -100px 0 0 #725AC1;
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
-.right button:active {
-  transform: scale(0.9);
-  
-} 
+.site-header {
+  background-color: #FEDF9E;
+  margin: 5%;
+}
 
+nav a {
+  color: black;
+  display: inline-block;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  margin: 0 4px 0 0;
+}
+
+main {
+  margin: 0 5%;
+}
+
+.home-page {
+  display: grid;
+  font-size: 24px;
+  grid-template-columns: 50% 50%;
+  line-height: 1.4;
+  margin: 2em auto 0 auto;
+  max-width: 45em;
+  padding: 0;
+}
+
+.home-page h1 {
+  font-size: 1em;
+  margin: 4em 0 0 0;
+}
+
+.home-page .button {
+  margin: 1em 0;
+}
+
+footer {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 5%;
+}
+
+@media screen and (max-width: 45em) {
+  .home-page {
+    display: block;
+  }
+}
