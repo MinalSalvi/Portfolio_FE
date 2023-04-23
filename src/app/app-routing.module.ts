@@ -16,6 +16,8 @@ import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
 import { AuthHomeComponent } from './auth-home/auth-home.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 
@@ -36,7 +38,9 @@ const approutes: Routes = [
 
   { path:'home', component:AuthHomeComponent},
   { path:'register', component:RegisterComponent},
-  { path:'login', component:LoginComponent}
+  { path:'login', component:LoginComponent},
+  {path:'footer', component:FooterComponent},
+  {path:'gallery', component:GalleryComponent}
   
 
  

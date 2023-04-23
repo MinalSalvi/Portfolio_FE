@@ -3,7 +3,7 @@
 }
 
 .scholarship-cont h2,p {
-    animation: 4s anim-lineUp ease-out infinite;
+    animation: 4s anim-lineUp ease-out;
   }
   @keyframes anim-lineUp {
     0% {
@@ -22,4 +22,5 @@
       transform: translateY(0%);
     }
   }
+  
   

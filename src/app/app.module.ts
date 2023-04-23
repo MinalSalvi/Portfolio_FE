@@ -29,6 +29,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { UpdatePopupComponent } from './update-popup/update-popup.component';
 import { AuthComponent } from './gaurd/auth/auth.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 
@@ -56,6 +57,7 @@ import { AuthComponent } from './gaurd/auth/auth.component';
          LoginComponent,
          UpdatePopupComponent,
          AuthComponent,
+         GalleryComponent,
    
    
    
