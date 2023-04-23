@@ -8,13 +8,16 @@ import {MatTableModule } from '@angular/material/table'
 import {MatPaginatorModule } from '@angular/material/paginator'
 import {MatSortModule } from '@angular/material/sort'
 import {MatDialogModule } from '@angular/material/dialog'
+import {MatButtonModule } from '@angular/material/button'
+
+
 
 
 
 @NgModule({
 exports:[
     MatInputModule,
-    MatCardModule,MatCheckboxModule,MatDialogModule,MatPaginatorModule,MatTableModule,MatSortModule,MatRadioModule,MatSelectModule
+    MatCardModule,MatCheckboxModule,MatDialogModule,MatPaginatorModule,MatTableModule,MatSortModule,MatRadioModule,MatSelectModule,MatButtonModule
 ]
 })
  export class MaterialModule{}

@@ -12,10 +12,10 @@ import { ScholarshipsComponent } from './scholarships/scholarships.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EducationComponent } from './education/education.component';
 import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { UserlistingComponent } from './userlisting/userlisting.component';
+
 import { AuthHomeComponent } from './auth-home/auth-home.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -33,10 +33,11 @@ const approutes: Routes = [
   { path: 'addChanges', component: AddChnagesComponent },
   { path: 'Hello', component: NewReserachComponent },
   // { path: 'NewResearch' , component:NewReserachComponent}
-  { path:'login', component:LoginComponent},
+
+  { path:'home', component:AuthHomeComponent},
   { path:'register', component:RegisterComponent},
-  { path:'UserList', component:UserlistingComponent},
-  { path:'home', component:AuthHomeComponent}
+  { path:'login', component:LoginComponent}
+  
 
  
 

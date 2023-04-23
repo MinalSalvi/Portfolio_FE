@@ -23,11 +23,12 @@ import { AddChnagesComponent } from './NEW/add-chnages/add-chnages.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/material.module';
 import {ToastrModule} from 'ngx-toastr';
+
+import { AuthHomeComponent } from './auth-home/auth-home.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-import { AuthHomeComponent } from './auth-home/auth-home.component';
-import { UserlistingComponent } from './userlisting/userlisting.component';
-import { UpdatePopupComponent } from './update-popup/update-popup.component'
+import { UpdatePopupComponent } from './update-popup/update-popup.component';
+import { AuthComponent } from './gaurd/auth/auth.component';
 
 
 
@@ -49,11 +50,13 @@ import { UpdatePopupComponent } from './update-popup/update-popup.component'
     EducationComponent,
     NewReserachComponent,
     AddChnagesComponent,
-    RegisterComponent,
-    LoginComponent,
+   
     AuthHomeComponent,
-    UserlistingComponent,
-    UpdatePopupComponent,
+         RegisterComponent,
+         LoginComponent,
+         UpdatePopupComponent,
+         AuthComponent,
+   
    
    
 

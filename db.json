@@ -1,12 +1,19 @@
 {
   "user": [
     {
-      "username": "fghjk",
-      "id": 1,
-      "Name": "fghjk.",
-      "Password": "fghjkl;",
-      "Email": "vbnm@in.com",
-      "gender": "Male",
+      "id": "Minal",
+      "name": "Minal",
+      "password": "test",
+      "email": "minal@in.com",
+      "gender": "female",
+      "role": "false"
+    },
+    {
+      "id": "xcvbn",
+      "name": "cvbnm",
+      "password": "vbnm,",
+      "email": "cvbnm@in.com",
+      "gender": "male",
       "role": "",
       "isactive": false
     }
