@@ -1,3 +1,5 @@
+/* 
+
 .h2,p{
     padding: 4ch;
 }
@@ -21,10 +23,68 @@
       opacity: 1;
       transform: translateY(0%);
     }
+    
   }
   
 
 
   .lineUp{
     padding: 2ch;
-  }
+
+    /* C:\TY\Portfolio_FE\src\assets\Images\Gender equality.jpg */
+    
+  
+
+  /* .container{
+    border: 1px red solid;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    background-image:url("https://i.pinimg.com/originals/e6/eb/f2/e6ebf2addb0ea6f91ebb7b92eb28447e.jpg");
+  
+    background-repeat: no-repeat;
+  } */ 
+
+
+
+  /* __________________________________________________________________________________________________________________ */
+
+
+
+  
+
+
+
+
+  .Background-fixed {
+    background-attachment: fixed;
+    background-position: center;
+}
+.ImageBackgroundWrap {
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ImageInnerWrap {
+  /*  position: relative;
+    z-index: 223;*/
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.TextBackground {
+   background-color: rgba(0, 45, 37, 0.83);
+    
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+.h2_container h2,p{
+  
+  text-align: center;
+  
+}
