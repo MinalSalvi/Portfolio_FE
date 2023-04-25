@@ -6,7 +6,7 @@
             User registration
         </h1>
     </mat-card-header>
-    <mat-card-content>
+    <mat-card-content class="mat-client">
 
 
         <form class="example-form" [formGroup]="registerform"  (ngSubmit)="proccedRegister">
@@ -47,10 +47,11 @@
 
             </div>
           
-       <div>
+       <div class="space">
         <button type="submit"  (click)="proccedRegister()" mat-raised-button color="primary">
             Submit
         </button>
+
         <a routerLink="/login" mat-raised-button color="accent">
             back to Login
         </a>

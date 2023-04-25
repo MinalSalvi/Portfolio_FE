@@ -1,0 +1,13 @@
+.mat-card{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.example-form{
+    display: flex;
+    flex-direction: column;
+    /* margin:0 */
+}
+
+

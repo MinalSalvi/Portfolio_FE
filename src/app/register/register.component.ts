@@ -33,7 +33,6 @@ export class RegisterComponent {
     isactive: this.builder.control(false),
   });
   
-
   proccedRegister() {
     if (this.registerform.valid) {
       this.service.Proceedregister(this.registerform.value).subscribe((res) => {
